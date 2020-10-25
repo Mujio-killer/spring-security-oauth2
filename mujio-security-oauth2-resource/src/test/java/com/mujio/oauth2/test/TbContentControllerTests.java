@@ -17,17 +17,13 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
 
-/**
- * 资源访问测试
- * <p>
- * Description:
- * </p>
- *
- * @author Lusifer
- * @version v1.0.0
- * @date 2019-04-07 01:38:30
- * @see com.mujio.oauth2.test
- */
+
+/** 
+* @Description: 资源访问模拟 
+* @Author: GZY
+* @Date: 2020/6/27 0027
+*/ 
+ 
 @Slf4j
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = OAuth2ResourceApplication.class)
